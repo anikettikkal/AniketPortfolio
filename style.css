@@ -1,0 +1,13 @@
+.name{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight:500;
+}
+
+.nameClass{
+    margin-top: 8rem;
+}
+.landingImage{
+    height: 35rem;
+    width: 100%;
+    object-fit: contain;
+}
