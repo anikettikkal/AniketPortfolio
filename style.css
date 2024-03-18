@@ -1,34 +1,38 @@
 /*landing page*/
-.name{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight:500;
+.name {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
 }
 
-.nameClass{
+.nameClass {
     margin-top: 8rem;
 }
-.landingImage{
+
+.landingImage {
     height: 35rem;
     width: 100%;
     object-fit: contain;
 }
-.hiremebtn{
-    width:8rem;
+
+.hiremebtn {
+    width: 8rem;
     font-weight: 500;
     font-size: larger;
 }
 
 /*project section*/
-.maincontainer{
-    background-color:rgb(242, 242, 242);
+.maincontainer {
+    background-color: rgb(242, 242, 242);
+    padding-bottom: 70px;
 }
 
-.cards{
+.cards {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.cards1{
+
+.cards1 {
     margin-left: auto;
     margin-right: auto;
     background-color: white;
@@ -41,17 +45,24 @@
     box-shadow: 0 7px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
-.cardsImages{
-    width:80%;
+.cardsImages {
+    width: 80%;
 }
 
-.cardsinfo{
+.cardsinfo {
     background-color: aqua;
 }
-.containerInfo{
-    margin-left:2rem ;
+
+.containerInfo {
+    margin-left: 2rem;
 }
-.buttonsContainer{
+
+.buttonsContainer {
     margin-top: 1.5rem;
     box-shadow: 0 7px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+/*contact me */
+.contact1{
+    height: 30rem;
 }
