@@ -63,11 +63,34 @@
 }
 
 /*contact me */
+.contactform{
+    padding-bottom: 70px;
+}
 .contact1{
-    height: 500px;
-    width:400px;
+    height: 530px;
+    width:450px;
     border: 2px solid black;
     margin-left: auto;
     margin-right: auto;
     margin-top: 3rem;
+    border-radius: 10px;
+    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.elements{
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+
+.box{
+    width: 90%;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+.box1{
+    height: 35px;
+}
+.hiremebtn1{
+    font-weight: 500;
+    font-size: larger;
+    width: 10rem;
 }
