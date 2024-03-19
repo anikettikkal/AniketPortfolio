@@ -94,3 +94,10 @@
     font-size: larger;
     width: 10rem;
 }
+
+/*footer*/
+.socialmedia{
+    font-size: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
