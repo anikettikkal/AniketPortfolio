@@ -70,7 +70,9 @@
             <span style="font-size: 25px;">A MERN Stack Developer Passionate About Coding. <br> My Portfolio Is A
                 Representation Of All That I've Learned And Accomplished As A Computer Science Student</span> <br>
             <div class=" btnclasss mt-5">
-                <a href="./Resume/Aniket_Tikkal_Resume.pdf" download><button  class="hiremebtn btn btn-outline-warning" >Resume</button></a> &nbsp;
+                <a href="./Resume/Aniket_Tikkal_Resume.pdf" download class="download-btn hiremebtn btn btn-outline-warning">Resume
+
+                </a> &nbsp;
                 &nbsp; &nbsp; &nbsp;
                 <a href="#Contact"><button type="button" class=" hiremebtn btn btn-outline-warning">Hire Me</button></a>
             </div>
@@ -281,16 +283,16 @@
         <div class="col-lg-6 ">
             <div class=" contact1">
                 <section class="elements">
-                    <form action="">
+                    <form action="https://formspree.io/tikkalaniket2019@gmail.com" method="POST">
                         <h5>Name -</h5>
-                        <input type="text" class="box box1" placeholder="your name"> <br> <br>
+                        <input type="text" class="box box1" placeholder="your name" name="name" required> <br> <br>
                         <h5>Email -</h5>
-                        <input type="email" class="box box1" placeholder="your email"> <br> <br>
+                        <input type="email" class="box box1" placeholder="your email" name="email" required> <br> <br>
                         <h5>Message -</h5>
-                        <textarea name="" class="box" placeholder="your message" id="" cols="30" rows="8"></textarea>
+                        <textarea name="" class="box" placeholder="your message" id="" cols="30" rows="8" name="message" required></textarea>
                         <br> <br>
                         <div class="text-center">
-                            <button type="button" class=" hiremebtn1 btn btn-outline-warning">Send Message</button>
+                            <button type="submit" class=" hiremebtn1 btn btn-outline-warning">Submit</button>
                         </div>
                     </form>
                 </section>
